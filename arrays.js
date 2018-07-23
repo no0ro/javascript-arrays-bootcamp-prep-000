@@ -19,7 +19,7 @@ function destructivelyAddElementToEndOfArray(array, element){
 }
 
 function accessElementInArray(array, index)
-  return array[]
+  return array[index]
 
 console.log(addElementToBeginningOfArray(chocolateBars, "Payday"))
 console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, "Payday"))
