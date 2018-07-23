@@ -10,7 +10,7 @@ function destructivelyAddElementToBeginningOfArray(array, element){
 }
 
 function addElementToEndOfArray(array, element){
-  return [array,...element]
+  return array[1]
 }
 
 function destructivelyAddElementToEndOfArray(array, element){
@@ -42,4 +42,3 @@ function removeElementFromEndOfArray(array){
 }
 
 console.log(addElementToBeginningOfArray(chocolateBars, [1]))
-console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, "Payday"))
