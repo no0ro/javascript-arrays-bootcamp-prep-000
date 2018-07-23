@@ -32,6 +32,8 @@ function removeElementFromBeginningOfArray(array){
   return array 
 }
 
+function destructivelyRemoveElementFromEndOfArray
+
 
 console.log(addElementToBeginningOfArray(chocolateBars, "Payday"))
 console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, "Payday"))
