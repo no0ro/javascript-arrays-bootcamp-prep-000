@@ -37,6 +37,9 @@ function destructivelyRemoveElementFromEndOfArray(array){
   return array
 }
 
+function removeElementFromEndOfArray(array){
+  return array.splice(0, array.length - 1 );
+}
 
 console.log(addElementToBeginningOfArray(chocolateBars, "Payday"))
 console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, "Payday"))
