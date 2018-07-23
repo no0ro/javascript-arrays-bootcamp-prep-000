@@ -18,4 +18,5 @@ function destructivelyAddElementToEndOfArray(array, element){
   return array;
 }
 
-console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, 1))
+console.log(addElementToBeginningOfArray(chocolateBars, "Payday"))
+console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, "Payday"))
